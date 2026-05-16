@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Environment
+.env
+.env.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Terraform
+infra/.terraform/
+infra/.terraform.lock.hcl
+infra/*.tfstate
+infra/*.tfstate.backup
+infra/*.tfvars
+!infra/terraform.tfvars.example
+infra/.terraform.tfstate.lock.info
+infra/tfplan
+
+# Build
+dist/
+build/
+*.egg
+
+# Logs
+*.log

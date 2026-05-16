@@ -1,0 +1,21 @@
+# Copie para terraform.tfvars (gitignored) e ajuste conforme necessário.
+
+prefix          = "ragmba"
+location        = "eastus"
+openai_location = "eastus"
+search_location = "eastus"
+
+# Após o primeiro `terraform apply`, faça build+push da imagem para o ACR e
+# depois atualize esta variável com o endereço completo, ex:
+# container_image = "acrragmba12345.azurecr.io/rag-investimentos:latest"
+container_image = "mcr.microsoft.com/azuredocs/aci-helloworld:latest"
+
+openai_embedding_model = "text-embedding-3-small"
+openai_chat_model      = "gpt-4o"
+
+tags = {
+  project     = "rag-investimentos"
+  environment = "dev"
+  course      = "fiap-mba"
+  owner       = "william"
+}
