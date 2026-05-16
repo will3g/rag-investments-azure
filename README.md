@@ -6,8 +6,6 @@ Aplicação RAG (Retrieval-Augmented Generation) end-to-end sobre documentos de
 **investimentos brasileiros** (Tesouro Direto, renda fixa, renda variável,
 FIIs, tributação e glossário).
 
-> Cobre os 5 critérios da rubrica + bônus de IaC (Terraform Azure).
-
 ## Stack
 
 | Camada           | Tecnologia                                    |
